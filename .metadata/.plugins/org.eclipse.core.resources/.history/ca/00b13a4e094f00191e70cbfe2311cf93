@@ -1,0 +1,17 @@
+package recursive;
+
+public class MyRecursive {
+
+	public void decimalToBinary(int n) {
+		if (n < 0)
+			return;
+	}
+
+	public int digits(int n) {
+
+	}
+
+	public void reverse(int n) {
+
+	}
+}
