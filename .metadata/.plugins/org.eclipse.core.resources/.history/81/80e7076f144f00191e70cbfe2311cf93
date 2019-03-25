@@ -35,9 +35,10 @@ public class MyRecursive {
 
 		System.out.println("digits:");
 		System.out.println(mr.digits(100));
-
+		
 		System.out.println("reverse:");
 		mr.reverse(123456789);
+		
 
 	}
 }
