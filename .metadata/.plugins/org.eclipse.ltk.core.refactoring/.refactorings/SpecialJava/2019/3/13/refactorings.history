@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;branching.BreakStament.unlableBreakStament()&apos; to &apos;unlabeledBreakStament&apos;&#x0D;&#x0A;- Original project: &apos;SpecialJava&apos;&#x0D;&#x0A;- Original element: &apos;branching.BreakStament.unlableBreakStament()&apos;&#x0D;&#x0A;- Renamed element: &apos;branching.BreakStament.unlabeledBreakStament()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;unlableBreakStament&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;branching{BreakStament.java[BreakStament~unlableBreakStament" name="unlabeledBreakStament" references="true" stamp="1553585040239" version="1.0"/>
+</session>

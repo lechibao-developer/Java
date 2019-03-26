@@ -38,6 +38,5 @@ public class MyRecursive {
 
 		System.out.println("reverse:");
 		mr.reverse(123456789);
-
 	}
 }
