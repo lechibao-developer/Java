@@ -1,0 +1,44 @@
+package bits;
+
+public class MyDate {
+	int date;
+	
+	public void setDay(int day) {
+		this.date = this.date ^ day;
+	}
+
+	public void setMonth(int month) {
+		this.date = (this.date << 5) ^ month;
+	}
+
+	public void setYear(int year) {
+		this.date = (this.date << 9) ^ year;
+	}
+
+	public int getDate() {
+		return date;
+	}
+
+	public int getDay() {
+		 return (((1 << 5) - 1) & (this.date)); 
+	}
+
+	public int getMonth() {
+		return (((1 << 4) - 1) & (this.date >> (6 - 1))); 
+	}
+
+	public int getYear() {
+		return (((1 << 12) - 1) & (this.date >> (10 - 1))); 
+	}
+
+	public static void main(String[] args) {
+		MyDate md = new MyDate();
+		md.setDay(7);
+		md.setMonth(12);
+		md.setYear(1996);
+		System.out.println(md.getYear());
+		System.out.println(md.getDate());
+		
+		
+	}
+}
