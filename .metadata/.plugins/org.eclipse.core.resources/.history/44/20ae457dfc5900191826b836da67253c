@@ -1,0 +1,14 @@
+package bitwise;
+
+public class MyDate {
+	private int date;
+
+	public MyDate(int day, int month, int year) {
+		
+	}
+
+
+	public static void main(String[] args) {
+
+	}
+}

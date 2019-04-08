@@ -1,0 +1,21 @@
+package bitwise;
+
+public class MyDate {
+	private int date;
+
+	public MyDate(int day, int month, int year) {
+		
+	}
+
+
+	public static void main(String[] args) {
+		MyDate md = new MyDate();
+		md.setDay(7);
+		md.setMonth(12);
+		md.setYear(1996);
+		System.out.println("day: " + md.getDay());
+		System.out.println("month: " + md.getMonth());
+		System.out.println("year: " + md.getYear());
+
+	}
+}

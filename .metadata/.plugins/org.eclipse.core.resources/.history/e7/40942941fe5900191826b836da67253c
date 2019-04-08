@@ -1,0 +1,49 @@
+package bitwise;
+
+public class MyDate {
+	private int date;
+
+	public MyDate(int day, int month, int year) {
+		setDay(day);
+		setMonth(month);
+		setYear(year);
+	}
+
+	public void setDay(int day) {
+		int mask = ~31;
+		// clear
+		this.date = this.date & mask;
+		this.date = this.date | day;
+	}
+
+	public void setMonth(int month) {
+		int mask = ~(15 << 5);
+		// clears
+		this.date = this.date & mask;
+		this.date = this.date | month;
+	}
+
+	public void setYear(int year) {
+		int mask = ~(4095 << 9);
+		// clear
+		this.date = this.date & mask;
+		this.date = this.date | year;
+	}
+
+	public int getDay() {
+		int mask = 31;
+		return this.date & mask;
+	}
+
+	public int getMonth() {
+
+	}
+
+	public int getYear() {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

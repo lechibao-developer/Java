@@ -1,0 +1,25 @@
+package bitwise;
+
+public class MyDate {
+	private int date;
+
+	public MyDate(int day, int month, int year) {
+
+	}
+
+	public void setDay() {
+
+	}
+
+	public void setMonth() {
+
+	}
+
+	public void setYear() {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
