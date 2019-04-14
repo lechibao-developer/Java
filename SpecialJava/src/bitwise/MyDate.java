@@ -22,7 +22,7 @@ public class MyDate implements Comparable<MyDate> {
 
 	public void setMonth(int month) {
 		int mask = ~(15 << 5);
-		// clears
+		// clear
 		this.date = this.date & mask;
 		month = month << 5;
 		this.date = this.date | month;
